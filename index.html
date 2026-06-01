@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Character Sheet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="index.css"/>
+  
+</head>
+<body>
+
+<div class="sheet">
+  <div class="sheet-inner-corners">
+
+    <!-- HEADER -->
+    <div class="header">
+      <div class="header-rule">
+        <span></span><div class="diamond"></div><span></span>
+      </div>
+      <div class="headshot-container">
+        <img class="headshot" src="./assets/KerzmanHeadshot.jpeg" alt="Headshot" />
+      </div>
+      <p class="sheet-label">Personal Dossier</p>
+      <h1 class="char-name">Austin Vac-Reed Kerzman</h1>
+      <p class="char-title">Husband &nbsp;·&nbsp; Frontend Developer &nbsp;·&nbsp; Creator</p>
+    </div>
+
+    <!-- META ROW -->
+    <div class="meta-row">
+      <div class="meta-cell bg_shade">
+        <span class="meta-label">Class / Profession</span>
+        <span class="meta-value">Frontend Development Student</span>
+      </div>
+      <div class="meta-cell bg_shade">
+        <span class="meta-label">Background</span>
+        <span class="meta-value">Athletic Nerd</span>
+      </div>
+      <div class="meta-cell bg_shade">
+        <span class="meta-label">Alignment</span>
+        <span class="meta-value">Lawful Good</span>
+      </div>
+      <div class="meta-cell bg_shade">
+        <span class="meta-label">Experience Level</span>
+        <span class="meta-value">Novice</span>
+      </div>
+    </div>
+
+    <!-- BODY -->
+    <div class="body">
+
+      <!-- ABILITY SCORES -->
+      <div class="section">
+        <div class="section-header">
+          <h2>Ability Scores</h2>
+          <div class="section-rule"></div>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-box">
+            <span class="stat-name">Strength</span>
+            <span class="stat-score">20</span>
+            <span class="stat-mod">Determination</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-name">Dexterity</span>
+            <span class="stat-score">16</span>
+            <span class="stat-mod">Adaptability</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-name">Constitution</span>
+            <span class="stat-score">17</span>
+            <span class="stat-mod">Resilience</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-name">Intelligence</span>
+            <span class="stat-score">18</span>
+            <span class="stat-mod">Curiosity</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-name">Wisdom</span>
+            <span class="stat-score">16</span>
+            <span class="stat-mod">Empathy</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-name">Charisma</span>
+            <span class="stat-score">20</span>
+            <span class="stat-mod">Passion</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SKILLS -->
+      <div class="section">
+        <div class="section-header">
+          <h2>Skills & Proficiencies</h2>
+          <div class="section-rule"></div>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-item bg_shade">
+            <div class="skill-pip filled"></div>
+            <span class="skill-name">HTML</span>
+            <span class="skill-val">+10</span>
+          </div>
+          <div class="skill-item bg_shade">
+            <div class="skill-pip filled"></div>
+            <span class="skill-name">Tailwind CSS</span>
+            <span class="skill-val">+10</span>
+          </div>
+          <div class="skill-item bg_shade">
+            <div class="skill-pip filled"></div>
+            <span class="skill-name">CSS Modules</span>
+            <span class="skill-val">+10</span>
+          </div>
+          <div class="skill-item bg_shade">
+            <div class="skill-pip filled"></div>
+            <span class="skill-name">TypeScript</span>
+            <span class="skill-val">+10</span>
+          </div>
+          <div class="skill-item bg_shade">
+            <div class="skill-pip filled"></div>
+            <span class="skill-name">Visual Studio Code</span>
+            <span class="skill-val">+10</span>
+          </div>
+          <div class="skill-item bg_shade">
+            <div class="skill-pip half"></div>
+            <span class="skill-name">React</span>
+            <span class="skill-val">+7</span>
+          </div>
+          <div class="skill-item bg_shade">
+            <div class="skill-pip half"></div>
+            <span class="skill-name">REST API</span>
+            <span class="skill-val">+7</span>
+          </div>
+          <div class="skill-item bg_shade">
+            <div class="skill-pip"></div>
+            <span class="skill-name">Node.js</span>
+            <span class="skill-val">+4</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- BACKSTORY -->
+      <div class="section full">
+        <div class="section-header">
+          <h2>Backstory</h2>
+          <div class="section-rule"></div>
+        </div>
+        <div class="prose-field bg_shade">
+          Creation has always been something I enjoyed. From my prized short-story Wyndward, to campaign and character building for my D&D group Ignis Voltum, to building websites. The process of taking an idea and making it tangible, interactive, and alive is the reward in itself. I always hoped to find myself to be part of a community or company that loved sharing creation and spreading inspiration to young creatives to never let their dream of being a creative wither away under the pressures of the dull, mundane world. 
+        </div>
+      </div>
+
+      <!-- PERSONALITY TRAITS -->
+      <div class="section full">
+        <div class="section-header">
+          <h2>Personality Traits</h2>
+          <div class="section-rule"></div>
+        </div>
+        <div class="trait-list">
+          <div class="trait-row bg_shade">
+            <svg class="trait-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+            <div>
+              <span class="trait-label" >Ideal</span>
+              <div class="trait-text">Equality in the creation process, everyone deserves the opportunity to express their creativity. <br> Hard work, dedication, and curiosity in the pursuit of any goal I strive for. <br> Kindness and empathy, loving others equally as He would have us love ourselves, everyone has their own hidden battles. <br> 
+              </div>
+            </div>
+          </div>
+          <div class="trait-row bg_shade">
+            <svg class="trait-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+            </svg>
+            <div>
+              <span class="trait-label">Bond</span>
+              <div class="trait-text">My wife, who is my biggest supporter and fan. <br>
+              Grog, who inspired me to start Ignis Voltum with my friends and explore the world of D&D.</div>
+            </div>
+          </div>
+          <div class="trait-row bg_shade">
+            <svg class="trait-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/>
+            </svg>
+            <div>
+              <span class="trait-label">Personality</span>
+              <div class="trait-text">Open, easy to talk to, and light-hearted. <br> Always ready to dive into new experiences and embrace challenges with a can do attitude.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BONDS / FLAWS -->
+      <div class="section full">
+        <div class="section-header">
+          <h2>Bonds &amp; Flaws</h2>
+          <div class="section-rule"></div>
+        </div>
+        <div class="two-col">
+          <div class="mini-block bg_shade">
+            <div class="mini-block-header">What Drives You</div>
+            <div class="mini-block-body">Creating products that will help individuals express their creativity as well as hone it. <br>
+            The unextinguished desire and want to provide for my family. 
+            <br>
+            Indomitable human will. 
+            </div>
+          </div>
+          <div class="mini-block bg_shade">
+            <div class="mini-block-header">Your Greatest Flaw</div>
+            <div class="mini-block-body">Seeking perfection in my creations, which can lead to frustration and self-criticism. </div>
+          </div>
+          <div class="mini-block bg_shade">
+            <div class="mini-block-header">Critical Role Connection</div>
+            <div class="mini-block-body">Critical Role, and how it came to be, opened my eyes to the possiblity of a career in Frontend Development that also dives into the creative world that I love. <br>
+            The beautiful storytelling and role-playing of the cast inspired me to start a D&D group with my friends and my wife, which has been rewarding beyond words and has brought us all closer together than I could have imagined. <br>
+            </div>
+          </div>
+          <div class="mini-block bg_shade">
+            <div class="mini-block-header">Why You, Why Now</div>
+            <div class="mini-block-body">Despite my lack of true job expereince in frontend development, I bring a blend of creativity, passion, and determination that sets me apart. <br>I am eager to contribute to Critical Role and help in anyway, even for free. <br>All I wish is to help build Critical Role into something even grander and help build the community around it that has brought my friends and I so many laughs, tears, and unforgettable memoris.</div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /body -->
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <span class="footer-text">Critical Role Submission</span>
+      <div class="footer-diamonds">
+        <span></span><span></span><span></span>
+      </div>
+      <span class="footer-text">Austin Kerzman· Omaha, Nebraska</span>
+    </div>
+
+  </div><!-- /inner-corners -->
+</div><!-- /sheet -->
+
+<script src="index.js"></script>
+</body>
+</html>
